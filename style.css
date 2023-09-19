@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+
+.container{
+    background: rgb(65, 58, 58);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caculator{
+  background: rgb(29, 27, 27);
+  padding: 20px;
+  border-radius: 15px;
+
+}
+.caculator form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(36, 30, 30);
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: -3px -5px 10px rgba( 255 , 255 , 255 , 0.1),5px 5px 10px rgba( 0 , 0, 0, 0.1);
+    font-size: 20px;
+    background: transparent;
+    color: aliceblue;
+}
+.caculator form input:hover{
+    cursor: pointer;
+    background: rgb(51, 49, 49);
+    box-shadow: 0 0 5px #444444,0 0 10px #444444, 0 0 15px #444444;
+    border: none;
+    outline: none;
+}
+
+form .screen{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+form .screen input{
+    text-align: right;
+    flex: 1;
+    box-shadow: none;
+    font-size: 35px;
+    border: none;
+}
+form input.zero{
+    width: 125px;
+}
+form input.equal{
+    background: rgb(184, 126, 20);
+}
+form input.equal:hover{
+    background: rgb(211, 149, 35);
+    border: none;
+}
+form input.delete
+{
+    font-size: 15px;
+    color: rgb(184, 126, 20);
+}
+form input.operators{
+   /* color: rgb(184, 126, 20);*/
+
+    /*background: rgb(54, 50, 50);*/
+    border: none;
+   background: rgb(184, 126, 20);
+    
+}
+form input.operators:hover{
+    background: rgb(233, 162, 29);
+    border: none;
+    
+
+}
